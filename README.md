@@ -16,7 +16,7 @@ It turns the survey into a compact index of paradigms, methods, benchmarks, and 
 ### 1. Problem framing
 <p align="center">
   <a href="figures/intro-fig.pdf">
-    <img src="figures/intro-fig.png" width="100%" loading="lazy" decoding="async" alt="AIGC-V detection pipeline" />
+    <img src="figures/intro-fig.png" width="100%" alt="AIGC-V detection pipeline" />
   </a>
 </p>
 
@@ -30,7 +30,7 @@ Read next:
 ### 2. AIGC-V paradigms
 <p align="center">
   <a href="figures/paradigms.pdf">
-    <img src="figures/paradigms.png" width="100%" loading="lazy" decoding="async" alt="AIGC-V paradigms" />
+    <img src="figures/paradigms.png" width="100%" alt="AIGC-V paradigms" />
   </a>
 </p>
 
@@ -45,7 +45,7 @@ Read next:
 ### 3. Vision-language dual-view taxonomy
 <p align="center">
   <a href="figures/dual-view.pdf">
-    <img src="figures/dual-view.png" width="100%" loading="lazy" decoding="async" alt="Dual-view taxonomy" />
+    <img src="figures/dual-view.png" width="100%" alt="Dual-view taxonomy" />
   </a>
 </p>
 
@@ -61,7 +61,7 @@ Read next:
 ### 4. Method landscape
 <p align="center">
   <a href="figures/landscape.pdf">
-    <img src="figures/landscape.png" width="100%" loading="lazy" decoding="async" alt="Method landscape" />
+    <img src="figures/landscape.png" width="100%" alt="Method landscape" />
   </a>
 </p>
 

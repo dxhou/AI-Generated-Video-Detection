@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="../figures/paradigms.pdf">
-    <img src="../figures/paradigms.png" width="100%" loading="lazy" decoding="async" alt="AIGC-V paradigms" />
+    <img src="../figures/paradigms.png" width="100%" alt="AIGC-V paradigms" />
   </a>
 </p>
 

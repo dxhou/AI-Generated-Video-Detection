@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="../figures/landscape.pdf">
-    <img src="../figures/landscape.png" width="100%" loading="lazy" decoding="async" alt="Method landscape" />
+    <img src="../figures/landscape.png" width="100%" alt="Method landscape" />
   </a>
 </p>
 
