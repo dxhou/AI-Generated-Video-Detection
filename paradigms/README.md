@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="../figures/paradigms.pdf">
-    <img src="../figures/paradigms.png" width="100%" alt="AIGC-V paradigms" />
+    <img src="../figures/paradigms.png" width="100%" loading="lazy" decoding="async" alt="AIGC-V paradigms" />
   </a>
 </p>
 
@@ -57,4 +57,4 @@ Methods in this paradigm synthesize full clips from text, image, or noise condit
 | 2024 | Runway Gen-3 | [Introducing Gen-3 Alpha: A New Frontier for Video Generation](https://runwayml.com/research/introducing-gen-3-alpha)<br>Runway Research | Commercial high-fidelity controllable video generation. | Official page |
 | 2024 | Dream Machine | [Dream Machine](https://lumalabs.ai/dream-machine)<br>Luma AI | Open-ended video generation for narrative and motion-heavy scenes. | Official page |
 | 2025 | Veo 3 | [Veo 3](https://deepmind.google/models/veo/)<br>Google DeepMind | Large-scale high-fidelity video generation with stronger world modeling. | Official page |
-| 2026 | Seedance 2.0 | [Official Launch of Seedance 2.0](https://www.seedance.com/)<br>ByteDance Seed | Recent industrial text-to-video system with stronger realism and control. | Official page |
+| 2026 | Seedance 2.0 | [Official Launch of Seedance 2.0](https://seed.bytedance.com/en/seedance2_0)<br>ByteDance Seed | Recent industrial text-to-video system with stronger realism and control. | Official page |
