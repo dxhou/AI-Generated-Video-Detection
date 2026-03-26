@@ -1,5 +1,5 @@
 <h1 align="center">
-  <strong>Detecting AI-Generated Video: A Vision-Language Dual-View Survey</strong>
+  <strong>Detecting AI-Generated Video: A Vision-Language<br>Dual-View Survey</strong>
 </h1>
 
 ## 📢 Timeline
