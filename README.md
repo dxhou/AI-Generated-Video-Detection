@@ -1,4 +1,10 @@
-# Detecting AI-Generated Video
+<h1 align="center">
+  <strong>Detecting AI-Generated Video: A Vision-Language Dual-View Survey</strong>
+</h1>
+
+## 📢 Timeline
+
+- [2026/03/26] We release this repository for **Detecting AI-Generated Video: A Vision-Language Dual-View Survey**. More updates on papers, benchmarks, and resources will follow.
 
 <div align="center">
   <a href="figures/dual-view.pdf">
