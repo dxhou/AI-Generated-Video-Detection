@@ -379,7 +379,7 @@ A flat, paper-first index in the same style as the reference list. Detailed note
 - [10/2025] VideoVerse: How Far is Your T2V Generator from a World Model? <a href="https://arxiv.org/abs/2510.08398">[paper]</a>
 - [07/2025] T2VWorldBench: A Benchmark for Evaluating World Knowledge in Text-to-Video Generation. <a href="https://arxiv.org/abs/2507.18107">[paper]</a>
 - [12/2024] Is Your World Simulator a Good Story Presenter? A Consecutive Events-Based Benchmark for Future Long Video Generation. <a href="https://arxiv.org/abs/2412.16211">[paper]</a>
-- [10/2024] WorldSimBench: Towards Video Generation Models as World Simulators. <a href="https://openreview.net/forum?id=4_hExrLJ7j">[paper]</a>
+- [10/2024] WorldSimBench: Towards Video Generation Models as World Simulators. <a href="https://openreview.net/forum?id=j9pVnmulQm">[paper]</a>
 - [10/2024] Towards World Simulator: Crafting Physical Commonsense-Based Benchmark for Video Generation. <a href="https://proceedings.mlr.press/v267/meng25c.html">[paper]</a>
 
 #### [C. Explanation-Oriented Diagnosis](benchmarks/adjacent-diagnostics.md#c-explanation-oriented-diagnosis)
