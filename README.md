@@ -2,6 +2,12 @@
   <strong>Detecting AI-Generated Video: A Vision-Language<br>Dual-View Survey</strong>
 </h1>
 
+<p align="center">
+  <a href="https://aigcvdetection.github.io/">
+    <img src="https://img.shields.io/badge/Homepage-aigcvdetection.github.io-0A7EA4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Homepage" />
+  </a>
+</p>
+
 ## 📢 Timeline
 
 - [2026/03/26] We release this repository for **Detecting AI-Generated Video: A Vision-Language Dual-View Survey**. More updates on papers, benchmarks, and resources will follow.
