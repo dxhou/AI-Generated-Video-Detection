@@ -12,14 +12,14 @@
 
 - [2026/03/26] We release this repository for **Detecting AI-Generated Video: A Vision-Language Dual-View Survey**. More updates on papers, benchmarks, and resources will follow.
 
+## 👋 Introduction
+
 <div align="center">
   <a href="figures/dual-view.pdf">
     <img src="figures/dual-view.png" width="100%" alt="Dual-view taxonomy" />
   </a>
   <p><em><strong>Figure:</strong> Overview of the proposed <strong>Vision-Language Dual-View</strong> taxonomy, organizing AIGC-V detection from intrinsic visual cues to world-level reasoning.</em></p>
 </div>
-
-## 👋 Introduction
 
 This repository reorganizes **"Detecting AI-Generated Video: A Vision-Language Dual-View Survey"** into a visual reading path, connecting the central taxonomy to the generation paradigms, detection methods, benchmarks, and paper list behind the survey.
 
@@ -389,3 +389,10 @@ A flat, paper-first index in the same style as the reference list. Detailed note
 - [10/2025] TRAVL: A Recipe for Making Video-Language Models Better Judges of Physics Implausibility. <a href="https://arxiv.org/abs/2510.07550">[paper]</a>
 
 <!-- full-list:end -->
+
+## 📖 Citation
+
+If you find this repository helpful, a citation to our paper would be greatly appreciated:
+
+```bibtex
+```
