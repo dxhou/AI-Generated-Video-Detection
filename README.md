@@ -3,16 +3,31 @@
 </h1>
 
 <p align="center">
+  <em>A curated survey hub for AI-generated video paradigms, detection methods, benchmarks, and paper-first references.</em>
+</p>
+
+<p align="center">
   <a href="https://aigcvdetection.github.io/">
     <img src="https://img.shields.io/badge/Homepage-aigcvdetection.github.io-0A7EA4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Homepage" />
   </a>
   <a href="paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf">
     <img src="https://img.shields.io/badge/Paper-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Survey PDF" />
   </a>
+  <a href="#-timeline">
+    <img src="https://img.shields.io/badge/ACL_2026_Findings-Accepted-1F7A5C?style=for-the-badge" alt="ACL 2026 Findings Accepted" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="#-reading-guide"><strong>Reading Guide</strong></a> ·
+  <a href="#-detection-map"><strong>Detection Map</strong></a> ·
+  <a href="#-paper-list"><strong>Paper List</strong></a> ·
+  <a href="#-citation"><strong>Citation</strong></a>
 </p>
 
 ## 📢 Timeline
 
+- [2026/04/07] 🎉 Our survey is accepted to **Findings of ACL 2026**.
 - [2026/03/26] We release this repository for **Detecting AI-Generated Video: A Vision-Language Dual-View Survey**. More updates on papers, benchmarks, and resources will follow.
 
 ## 👋 Introduction
@@ -32,14 +47,66 @@ The evolving realism of **AI-Generated Content-Videos (AIGC-V)** is rapidly rend
 
 To systematize this fast-evolving area, we propose a **Vision-Language Dual-View** taxonomy that organizes methods into four layers: **(1) Intrinsic Cue Analysis**, **(2) Spatiotemporal Consistency**, **(3) Cross-Modal Consistency**, and **(4) Language-Guided World-Level Reasoning**. This framing highlights the transition from artifact matching in traditional deepfake detection to evidence-based semantic verification enabled by vision-language models and agentic reasoning pipelines. Based on a review of **221 works as of March 2026**, we synthesize AIGC-V generation paradigms, detection methods, evaluation metrics, benchmarks, and open challenges toward robust, explainable, and trustworthy detection.
 
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <strong>221</strong><br>
+      reviewed works
+    </td>
+    <td align="center" width="25%">
+      <strong>4</strong><br>
+      detection layers
+    </td>
+    <td align="center" width="25%">
+      <strong>3</strong><br>
+      generation settings
+    </td>
+    <td align="center" width="25%">
+      <strong>4</strong><br>
+      benchmark tracks
+    </td>
+  </tr>
+</table>
+
 ## 🧭 Reading Guide
 
-| Section | What it covers | Jump to |
-| --- | --- | --- |
-| Paradigms | How AI-generated videos are produced: local manipulation, audio-visual editing, and full video synthesis | [Overview](paradigms/README.md), [Local Manipulation](paradigms/README.md#local-manipulation), [Audio-Visual Editing](paradigms/README.md#audio-visual-editing), [Generative Video Synthesis](paradigms/README.md#generative-video-synthesis) |
-| Methods | How they are detected: visual evidence, cross-modal consistency, and world-grounded reasoning across four layers | [Overview](methods/README.md), [L1](methods/layer-1-intrinsic-cues.md), [L2](methods/layer-2-spatiotemporal.md), [L3](methods/layer-3-cross-modal.md), [L4](methods/layer-4-world-level-reasoning.md) |
-| Benchmarks | Datasets, evaluation families, and diagnostic resources for both detection and explanation | [Overview](benchmarks/README.md), [LMV](benchmarks/local-manipulation-video.md), [AVE](benchmarks/audio-visual-editing.md), [GVS](benchmarks/generative-video-synthesis.md), [Adjacent Diagnostics](benchmarks/adjacent-diagnostics.md) |
-| Papers | Full paper-first index across paradigms, methods, and benchmarks | [Paper List](#-paper-list) |
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>🎬 Paradigms</strong><br>
+      How AI-generated videos are produced across local manipulation, audio-visual editing, and full video synthesis.<br><br>
+      <a href="paradigms/README.md">Overview</a> ·
+      <a href="paradigms/README.md#local-manipulation">Local Manipulation</a> ·
+      <a href="paradigms/README.md#audio-visual-editing">Audio-Visual Editing</a> ·
+      <a href="paradigms/README.md#generative-video-synthesis">Generative Video Synthesis</a>
+    </td>
+    <td valign="top" width="50%">
+      <strong>🧠 Methods</strong><br>
+      How AIGC-V is detected, from intrinsic visual evidence to language-guided world-level reasoning across four layers.<br><br>
+      <a href="methods/README.md">Overview</a> ·
+      <a href="methods/layer-1-intrinsic-cues.md">L1</a> ·
+      <a href="methods/layer-2-spatiotemporal.md">L2</a> ·
+      <a href="methods/layer-3-cross-modal.md">L3</a> ·
+      <a href="methods/layer-4-world-level-reasoning.md">L4</a>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong>🧪 Benchmarks</strong><br>
+      Datasets, evaluation families, and diagnostic resources for both detection and explanation-oriented analysis.<br><br>
+      <a href="benchmarks/README.md">Overview</a> ·
+      <a href="benchmarks/local-manipulation-video.md">LMV</a> ·
+      <a href="benchmarks/audio-visual-editing.md">AVE</a> ·
+      <a href="benchmarks/generative-video-synthesis.md">GVS</a> ·
+      <a href="benchmarks/adjacent-diagnostics.md">Adjacent Diagnostics</a>
+    </td>
+    <td valign="top" width="50%">
+      <strong>📚 Paper List</strong><br>
+      A flat, paper-first index spanning paradigms, methods, and benchmarks in the same style as a reference list.<br><br>
+      <a href="#-paper-list">Jump to the full list</a>
+    </td>
+  </tr>
+</table>
 
 ## 💡 Core Concepts
 
@@ -76,7 +143,7 @@ The overview figure at the top of this page summarizes the taxonomy. It moves fr
 
 The field is shifting from artifact-centric screening toward multimodal verification, grounded localization, and explainable reasoning as generators become stronger and more realistic. For a structured entry point, open the [Methods overview](methods/README.md), then connect it to the [Benchmarks overview](benchmarks/README.md), [Generative Video Synthesis benchmarks](benchmarks/generative-video-synthesis.md), and [Adjacent diagnostics](benchmarks/adjacent-diagnostics.md).
 
-## Detection Map
+## 🗺️ Detection Map
 
 The four layers below are arranged as a compact comparison table for faster scanning.
 
