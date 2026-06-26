@@ -10,11 +10,14 @@
   <a href="https://aigcvdetection.github.io/">
     <img src="https://img.shields.io/badge/Homepage-aigcvdetection.github.io-0A7EA4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Homepage" />
   </a>
-  <a href="paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf">
-    <img src="https://img.shields.io/badge/Paper-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Survey PDF" />
+  <a href="https://aclanthology.org/2026.findings-acl.1613.pdf">
+    <img src="https://img.shields.io/badge/ACL_Anthology-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="ACL Anthology PDF" />
   </a>
   <a href="#-timeline">
     <img src="https://img.shields.io/badge/ACL_2026_Findings-Accepted-1F7A5C?style=for-the-badge" alt="ACL 2026 Findings Accepted" />
+  </a>
+  <a href="#-timeline">
+    <img src="https://img.shields.io/badge/ICML_2026_EMM--QA_Workshop-Accepted-6F42C1?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="ICML 2026 EMM-QA Workshop Accepted" />
   </a>
 </p>
 
@@ -27,6 +30,7 @@
 
 ## 📢 Timeline
 
+- [2026/06/14] 🎉 Our survey is accepted to **ICML 2026 EMM-QA Workshop**.
 - [2026/04/07] 🎉 Our survey is accepted to **Findings of ACL 2026**.
 - [2026/03/26] We release this repository for **Detecting AI-Generated Video: A Vision-Language Dual-View Survey**. More updates on papers, benchmarks, and resources will follow.
 
@@ -41,7 +45,7 @@
 
 This repository reorganizes **"Detecting AI-Generated Video: A Vision-Language Dual-View Survey"** into a visual reading path, connecting the central taxonomy to the generation paradigms, detection methods, benchmarks, and paper list behind the survey.
 
-The survey PDF is available in this repository at [paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf](paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf).
+The ACL Anthology version is available at [https://aclanthology.org/2026.findings-acl.1613.pdf](https://aclanthology.org/2026.findings-acl.1613.pdf). A local copy is also available in this repository at [paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf](paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf).
 
 The evolving realism of **AI-Generated Content-Videos (AIGC-V)** is rapidly rendering traditional artifact-centric detection insufficient, driving a shift from low-level inspection to high-level semantic verification. In this survey, we reframe AIGC-V detection as **factual fidelity verification**: whether the events, entities, and physical processes depicted in a video remain consistent with real-world facts.
 
@@ -467,13 +471,27 @@ A flat, paper-first index in the same style as the reference list. Detailed note
 If you find this repository helpful, a citation to our paper would be greatly appreciated:
 
 ```bibtex
-@article{AIGC_V_Detection_2026,
-  title={Detecting AI-Generated Video: A Vision-Language Dual-View Survey},
-  url={https://www.researchgate.net/doi/10.13140/RG.2.2.31713.88168},
-  DOI={10.13140/RG.2.2.31713.88168},
-  journal={ACL 2026},
-  publisher={Annual Meeting of the Association for Computational Linguistics},
-  author={Hou, Dylan Xinming and Juntian Zhang and Gu, Xu and Yichen Wu and Lukas, Nils and Xia, Gus and Xiuying Chen and Yuhan Liu},
-  year={2026}
+@inproceedings{hou-etal-2026-detecting,
+  title = "Detecting {AI}-Generated Video: A Vision{--}Language Dual-View Survey",
+  author = "Hou, Dylan Xinming  and
+    Zhang, Juntian  and
+    Gu, Xu  and
+    Wu, Yichen  and
+    Lukas, Nils  and
+    Xia, Gus  and
+    Chen, Xiuying  and
+    Liu, Yuhan",
+  editor = "Liakata, Maria  and
+    Moreira, Viviane P.  and
+    Zhang, Jiajun  and
+    Jurgens, David",
+  booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+  month = jul,
+  year = "2026",
+  address = "San Diego, California, United States",
+  publisher = "Association for Computational Linguistics",
+  url = "https://aclanthology.org/2026.findings-acl.1613/",
+  pages = "32221--32255",
+  ISBN = "979-8-89176-395-1"
 }
 ```
