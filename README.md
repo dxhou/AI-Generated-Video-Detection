@@ -472,26 +472,27 @@ If you find this repository helpful, a citation to our paper would be greatly ap
 
 ```bibtex
 @inproceedings{hou-etal-2026-detecting,
-  title = "Detecting {AI}-Generated Video: A Vision{--}Language Dual-View Survey",
-  author = "Hou, Dylan Xinming  and
-    Zhang, Juntian  and
-    Gu, Xu  and
-    Wu, Yichen  and
-    Lukas, Nils  and
-    Xia, Gus  and
-    Chen, Xiuying  and
-    Liu, Yuhan",
-  editor = "Liakata, Maria  and
-    Moreira, Viviane P.  and
-    Zhang, Jiajun  and
-    Jurgens, David",
-  booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
-  month = jul,
-  year = "2026",
-  address = "San Diego, California, United States",
-  publisher = "Association for Computational Linguistics",
-  url = "https://aclanthology.org/2026.findings-acl.1613/",
-  pages = "32221--32255",
-  ISBN = "979-8-89176-395-1"
+    title = "Detecting {AI}-Generated Video: A Vision{--}Language Dual-View Survey",
+    author = "Hou, Dylan Xinming  and
+      Zhang, Juntian  and
+      Gu, Xu  and
+      Wu, Yichen  and
+      Lukas, Nils  and
+      Xia, Gus  and
+      Chen, Xiuying  and
+      Liu, Yuhan",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.findings-acl.1613/",
+    pages = "32221--32255",
+    ISBN = "979-8-89176-395-1",
+    abstract = "The evolving realism of AI-generated Videos (AIGC-V) is rapidly rendering traditional artifact-centric detection insufficient, necessitating a paradigm shift from low-level inspection to high-level semantic verification. This paper presents a comprehensive survey of AIGC-V detection, reframing the task as Factual Fidelity Verification, which asks whether the events, entities, and physical processes depicted in a video are consistent with real-world facts. To systematize this rapidly evolving field, we propose a Vision{--}Language Dual-View taxonomy that organizes existing methods into a hierarchical, four-layer landscape, spanning intrinsic cue analysis, spatiotemporal consistency modeling, cross-modal consistency reasoning, and language-guided world-level reasoning. This dual-view framing highlights a fundamental transition from artifact matching to evidence-based semantic verification enabled by vision{--}language models and agentic reasoning pipelines. Based on a systematic review of 195 papers, we synthesize AIGC-V generation paradigms, survey the landscape of detection methods, and review evaluation metrics and benchmarks in line with proposed views. Finally, we discuss current challenges and identify promising directions toward robust, explainable, and trustworthy detection."
 }
 ```
