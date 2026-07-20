@@ -1,8 +1,8 @@
-# Adjacent Diagnostics
+# Diagnostics and Audits
 
 [Back to benchmarks](README.md) · [Back to home](../README.md)
 
-These resources are not only detector leaderboards. They broaden evaluation toward physical-rule testing, world-dynamics probes, and explanation-oriented diagnosis that are increasingly relevant to AIGC-V detection.
+These resources are not only detector leaderboards. They broaden evaluation toward physical-rule testing, world-dynamics probes, explanation-oriented diagnosis, and controlled audits of AIGC-V detectors.
 
 ## A. Physical Rule Violations
 
@@ -42,3 +42,22 @@ Resources that turn implausibility judgment and explanation into an explicit eva
 | 12/2025 | PhyDetEx | [PhyDetEx: A Benchmark Dataset and Method for Detecting and Explaining Physical Plausibility in Text-to-Video Models](https://arxiv.org/abs/2512.01843)<br>Wang et al. | Method | Introduces a benchmark and trains models to detect and explain violated physical rules in text-to-video outputs. | arXiv |
 | 11/2025 | SPOTLIGHT | [SPOTLIGHT: Identifying and Localizing Video Generation Errors Using VLMs](https://arxiv.org/abs/2511.18102)<br>Chinchure et al. | Eval | Fine-grained identification and localization of generation errors using VLMs. | arXiv |
 | 10/2025 | TRAVL | [TRAVL: A Recipe for Making Video-Language Models Better Judges of Physics Implausibility](https://arxiv.org/abs/2510.07550)<br>Motamed et al. | Method | Adds intra-frame spatial and trajectory-guided temporal attention and fine-tunes on ImplausiBench to improve VLM judgments of physically implausible videos. | arXiv |
+
+## D. Detector Robustness Audits
+
+Video-first audits that test whether apparent detector gains survive confound control, preprocessing changes, and model-version drift.
+
+| Date | Resource | Paper | Type | Focus | Venue |
+| --- | --- | --- | --- | --- | --- |
+| 07/2026 | BMF Dynamic Detector | [Continuously Evolving Deepfake Detection: An Architecture and Public-Benchmark Evaluation of a Dynamic Detection System](https://arxiv.org/abs/2607.13234)<br>Miyachi et al. | System | Maintains versioned general-video and human-video checkpoints alongside a continually refreshed benchmark. | arXiv |
+| 07/2026 | Motion Shortcut Audit | [Dataset Biases and Shortcut Learning in Motion-Based AI-Generated Video Detection](https://arxiv.org/abs/2607.00948)<br>Michels et al. | Audit | Isolates preprocessing, sampling, and real/fake motion-distribution biases across four video detectors. | arXiv |
+| 06/2026 | VidAudit | [Auditing Generalization in AI-Generated Video Detection: A Six-Control Protocol and the VidAudit Toolkit](https://arxiv.org/abs/2606.31004)<br>Cakiroglu et al. | Toolkit | Provides six video-specific confound controls, low-FPR reporting, 14 detector plug-ins, and cross-dataset validation. | arXiv |
+
+## E. Source-Side Authentication (Adjacent, Not Counted)
+
+These video-first works are useful complementary defenses, but they require signals embedded or staged at capture time and are therefore not counted as content-side detectors in the July total.
+
+| Date | Resource | Paper | Type | Focus | Venue |
+| --- | --- | --- | --- | --- | --- |
+| 04/2026 | GIFGuard | [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519)<br>Che et al. | Authentication | Embeds and recovers robust spatiotemporal watermarks in animated facial GIFs. | arXiv |
+| 04/2026 | LAVA | [LAVA: Layered Audio-Visual Anti-tampering Watermarking for Robust Deepfake Detection and Localization](https://arxiv.org/abs/2604.23957)<br>Zeng et al. | Authentication | Fuses aligned audio/visual watermarks for compression-robust tamper localization. | arXiv |

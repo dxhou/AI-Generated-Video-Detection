@@ -10,6 +10,24 @@ World-grounded verification. The detector moves beyond within-video agreement an
 - **B. Tool-augmented agents for evidence gathering**: Observe-tool-integrate pipelines, retrieval, and modular analyzers.
 - **C. Post-training, preferences and rewards**: Post-training for explainable reasoning, preference alignment, and reward modeling.
 
+## July 2026 refresh
+
+These methods use language to calibrate forgery representations, explain localized evidence, retrieve external support, or reason over physical and social claims. VLAForge is Layer 4 rather than Layer 3 because text is a representation prior, not an observed stream whose consistency is tested.
+
+| Date | Method | Paper | Decisive mechanism | Output | Venue |
+| --- | --- | --- | --- | --- | --- |
+| 05/2026 | Artifact-Bench | [Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos](https://arxiv.org/abs/2605.18984)<br>Tang et al. | MLLM classification, comparison, and fine-grained artifact diagnosis | Verdict+exp. | arXiv |
+| 04/2026 | DVAR | [DVAR: Adversarial Multi-Agent Debate for Video Authenticity Detection](https://arxiv.org/abs/2604.16987)<br>Qi et al. | Competing natural/generative agents, GenVideoKB, and MDL adjudication | Verdict+exp. | arXiv |
+| 07/2026 | Hermes | [Hermes: An Evidence-Driven Agentic Framework for Trustworthy and Explainable AI-Generated Video Detection](https://icml.cc/virtual/2026/poster/61817)<br>Li et al. | Retrieved evidence graphs and deliberation | Verdict+exp. | ICML |
+| 07/2026 | SafeGuard | [SafeGuard: A Multi-Agent Perception-Reasoning Framework for Social-Risk AI-Generated Video Detection](https://arxiv.org/abs/2607.03069)<br>Wu et al. | Forensic agents plus physical/social-risk reasoning | Verdict+exp. | arXiv; ECCV author-reported |
+| 06/2026 | FLARE | [From Detector Evidence to Language: Explainable Deepfake Video Detection](https://openaccess.thecvf.com/content/CVPR2026W/FoundGen-Bio/html/Panahi_From_Detector_Evidence_to_Language_Explainable_Deepfake_Video_Detection_CVPRW_2026_paper.html)<br>Panahi et al. | Detector evidence maps ground VLM explanations | Verdict+loc.+exp. | CVPRW |
+| 06/2026 | VMD-FACT | [VMD-FACT: A New Video Dataset and MLLM-Based Method for Detecting Realistic AI-Generated Video Misinformation](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_VMD-FACT_A_New_Video_Dataset_and_MLLM-based_method_for_Detecting_CVPR_2026_paper.html)<br>Zhang et al. | Multimodal evidence and fact-check graphs | Verdict+exp. | CVPR |
+| 06/2026 | MSLoc | [Explainable Forensics of Manipulated Segments in Untrimmed Long Videos](https://arxiv.org/abs/2606.02402)<br>Feng et al. | MLLM proposal refinement and rationales | Verdict+loc.+exp. | ICML |
+| 05/2026 | CoCoDetect | [CoCoVideo: The High-Quality Commercial-Model-Based Contrastive Benchmark for AI-Generated Video Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Feng_CoCoVideo_The_High-Quality_Commercial-Model-Based_Contrastive_Benchmark_for_AI-Generated_Video_Detection_CVPR_2026_paper.html)<br>Feng et al. | MLLM reasoning for uncertain temporal cases | Verdict+exp. | CVPR |
+| 03/2026 | VLAForge | [Unleashing Vision-Language Semantics for Deepfake Video Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Unleashing_Vision-Language_Semantics_for_Deepfake_Video_Detection_CVPR_2026_paper.html)<br>Zhu et al. | Identity-aware language calibration | Score | CVPR |
+| 03/2026 | GenVideoLens | [GenVideoLens: Where LVLMs Fall Short in AI-Generated Video Detection?](https://arxiv.org/abs/2603.18625)<br>Zou et al. | Fine-grained perceptual, optical, physical, and temporal diagnosis | Verdict+exp. | arXiv |
+| 03/2026 | ForensicZip | [ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models](https://arxiv.org/abs/2603.12208)<br>Lai et al. | Temporal-token transport for efficient forensic VLMs | Verdict | arXiv |
+
 ## A. Prompts and adapters for representation calibration
 
 Language priors and lightweight tuning to bind forgery evidence to semantic hypotheses.

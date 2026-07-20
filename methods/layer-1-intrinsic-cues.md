@@ -10,6 +10,20 @@ Frame-level forensic evidence. The detector tests whether low-level visual signa
 - **B. Physiological features**: Blink, rPPG, heart-rate, and biological rhythm inconsistencies.
 - **C. Distribution discrepancy and robustness**: Transfer-oriented modeling, adaptation, and robustness under shift.
 
+## July 2026 refresh
+
+These additions are assigned to Layer 1 because their decisive signal is frame-intrinsic or distributional; none requires temporal or cross-modal evidence at inference.
+
+| Date | Method | Paper | Decisive cue | Output | Venue |
+| --- | --- | --- | --- | --- | --- |
+| 05/2026 | Lightweight Cue Fusion | [Lightweight Complementary-Cue Fusion for Robust Video Face Forgery Detection](https://arxiv.org/abs/2605.29092)<br>Baek et al. | Frame-level wavelet with phase/texture cues | Score | arXiv |
+| 05/2026 | VINA | [Video as Natural Augmentation: Towards Unified AI-Generated Image and Video Detection](https://arxiv.org/abs/2605.21977)<br>Li et al. | Cross-modal alignment of frame-intrinsic image/video distributions | Score | arXiv |
+| 07/2026 | G2VD | [G2VD: Generalizable AI-Generated Video Detection via Counterfactual Intervention and Causal Disentanglement](https://arxiv.org/abs/2607.04607)<br>Du et al. | Counterfactual pixel/frequency disentanglement | Score | arXiv |
+| 07/2026 | Real Data Lies | [Real Data Lies: Unveiling and Closing the Quality Shortcut in Generalizable AI-Generated Video Detection](https://icml.cc/virtual/2026/poster/61218)<br>Fang et al. | Quality-matched real/fake distributions | Score | ICML |
+| 03/2026 | GenD | [Deepfake Detection that Generalizes Across Benchmarks](https://openaccess.thecvf.com/content/WACV2026/html/Yermakov_Deepfake_Detection_that_Generalizes_Across_Benchmarks_WACV_2026_paper.html)<br>Yermakov et al. | Normalization-only adaptation of intrinsic features | Score | WACV |
+| 06/2026 | DiCoME | [Divide and Conquer: Reliable Multi-View Evidential Learning for Deepfake Detection](https://arxiv.org/abs/2606.01885)<br>Kang et al. | Geometrically purified semantic/artifact views with evidential fusion | Score+uncert. | ICML |
+| 07/2026 | Breaking Manifold | [Breaking Manifold Continuity: Vector Quantized Modeling for Real-Centric Deepfake Detection](https://icml.cc/virtual/2026/poster/63477)<br>Wang et al. | Vector-quantized authentic manifold with tangent-space projection | Score | ICML |
+
 ## A. Pixel and geometric artifacts
 
 Frequency, texture, localization, and geometric plausibility cues.

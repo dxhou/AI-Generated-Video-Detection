@@ -14,10 +14,10 @@ This section reorganizes the detection part of the survey into the **four-layer 
 
 | Layer | View | Representative methods | Subcategories | Page |
 | --- | --- | --- | --- | --- |
-| L1 | Visual | 28 | A. Pixel and geometric artifacts / B. Physiological features / C. Distribution discrepancy and robustness | [Open](layer-1-intrinsic-cues.md) |
-| L2 | Visual | 39 | A. Temporal and motion inconsistencies / B. Physical and frequency artifacts / C. Human behavioral and interaction dynamics | [Open](layer-2-spatiotemporal.md) |
-| L3 | Language | 33 | A. Audio-visual consistency detection / B. Text-video semantic consistency reasoning / C. Robust learning and temporal localization | [Open](layer-3-cross-modal.md) |
-| L4 | Language | 19 | A. Prompts and adapters for representation calibration / B. Tool-augmented agents for evidence gathering / C. Post-training, preferences and rewards | [Open](layer-4-world-level-reasoning.md) |
+| L1 | Visual | 33 | A. Pixel and geometric artifacts / B. Physiological features / C. Distribution discrepancy and robustness | [Open](layer-1-intrinsic-cues.md) |
+| L2 | Visual | 74 | A. Temporal and motion inconsistencies / B. Physical and frequency artifacts / C. Human behavioral and interaction dynamics | [Open](layer-2-spatiotemporal.md) |
+| L3 | Language | 63 | A. Audio-visual consistency detection / B. Text-video semantic consistency reasoning / C. Robust learning and temporal localization | [Open](layer-3-cross-modal.md) |
+| L4 | Language | 30 | A. Prompts and adapters for representation calibration / B. Tool-augmented agents for evidence gathering / C. Post-training, preferences and rewards | [Open](layer-4-world-level-reasoning.md) |
 
 ## Protocol-Aware Performance Snapshot
 

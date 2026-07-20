@@ -10,6 +10,9 @@
   <a href="https://aigcvdetection.github.io/">
     <img src="https://img.shields.io/badge/Homepage-aigcvdetection.github.io-0A7EA4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Project Homepage" />
   </a>
+  <a href="https://arxiv.org/abs/2607.10787">
+    <img src="https://img.shields.io/badge/arXiv-2607.10787-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv paper" />
+  </a>
   <a href="https://aclanthology.org/2026.findings-acl.1613.pdf">
     <img src="https://img.shields.io/badge/ACL_Anthology-PDF-B31B1B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="ACL Anthology PDF" />
   </a>
@@ -30,6 +33,7 @@
 
 ## 📢 Timeline
 
+- [2026/07/20] 📚 We have updated the video-first survey corpus and paper/benchmark index through July 2026; the review now covers **315 works**, with classification checked against primary paper and venue sources.
 - [2026/06/14] 🎉 Our survey is accepted to **ICML 2026 EMM-QA Workshop**.
 - [2026/04/07] 🎉 Our survey is accepted to **Findings of ACL 2026**.
 - [2026/03/26] We release this repository for **Detecting AI-Generated Video: A Vision-Language Dual-View Survey**. More updates on papers, benchmarks, and resources will follow.
@@ -49,12 +53,12 @@ The ACL Anthology version is available at [https://aclanthology.org/2026.finding
 
 The evolving realism of **AI-Generated Content-Videos (AIGC-V)** is rapidly rendering traditional artifact-centric detection insufficient, driving a shift from low-level inspection to high-level semantic verification. In this survey, we reframe AIGC-V detection as **factual fidelity verification**: whether the events, entities, and physical processes depicted in a video remain consistent with real-world facts.
 
-To systematize this fast-evolving area, we propose a **Vision-Language Dual-View** taxonomy that organizes methods into four layers: **(1) Intrinsic Cue Analysis**, **(2) Spatiotemporal Consistency**, **(3) Cross-Modal Consistency**, and **(4) Language-Guided World-Level Reasoning**. This framing highlights the transition from artifact matching in traditional deepfake detection to evidence-based semantic verification enabled by vision-language models and agentic reasoning pipelines. Based on a review of **221 works as of March 2026**, we synthesize AIGC-V generation paradigms, detection methods, evaluation metrics, benchmarks, and open challenges toward robust, explainable, and trustworthy detection.
+To systematize this fast-evolving area, we propose a **Vision-Language Dual-View** taxonomy that organizes methods into four layers: **(1) Intrinsic Cue Analysis**, **(2) Spatiotemporal Consistency**, **(3) Cross-Modal Consistency**, and **(4) Language-Guided World-Level Reasoning**. This framing highlights the transition from artifact matching in traditional deepfake detection to evidence-based semantic verification enabled by vision-language models and agentic reasoning pipelines. Based on a review of **315 works through July 2026**, we synthesize AIGC-V generation paradigms, detection methods, evaluation metrics, benchmarks, and open challenges toward robust, explainable, and trustworthy detection.
 
 <table>
   <tr>
     <td align="center" width="25%">
-      <strong>221</strong><br>
+      <strong>315</strong><br>
       reviewed works
     </td>
     <td align="center" width="25%">
@@ -198,6 +202,114 @@ The four layers below are arranged as a compact comparison table for faster scan
 A flat, paper-first index in the same style as the reference list. Detailed notes and extra metadata stay on the linked section pages.
 
 <!-- full-list:start -->
+### July 2026 refresh: verified video-first additions
+
+The 94 additions below are classified by the evidence actually consumed by the detector. Broad multimedia papers where video is only a minor modality are intentionally excluded.
+
+#### Layer 1: intrinsic cues and distribution robustness
+- [05/2026] Video as Natural Augmentation: Towards Unified AI-Generated Image and Video Detection. <a href="https://arxiv.org/abs/2605.21977">[paper]</a>
+- [05/2026] Lightweight Complementary-Cue Fusion for Robust Video Face Forgery Detection. <a href="https://arxiv.org/abs/2605.29092">[paper]</a>
+- [03/2026] Deepfake Detection that Generalizes Across Benchmarks. <a href="https://openaccess.thecvf.com/content/WACV2026/html/Yermakov_Deepfake_Detection_that_Generalizes_Across_Benchmarks_WACV_2026_paper.html">[paper]</a>
+- [07/2026] Real Data Lies: Unveiling and Closing the Quality Shortcut in Generalizable AI-Generated Video Detection. <a href="https://icml.cc/virtual/2026/poster/61218">[paper]</a>
+- [07/2026] G2VD: Generalizable AI-Generated Video Detection via Counterfactual Intervention and Causal Disentanglement. <a href="https://arxiv.org/abs/2607.04607">[paper]</a>
+- [06/2026] Divide and Conquer: Reliable Multi-View Evidential Learning for Deepfake Detection. <a href="https://arxiv.org/abs/2606.01885">[paper]</a>
+- [07/2026] Breaking Manifold Continuity: Vector Quantized Modeling for Real-Centric Deepfake Detection. <a href="https://icml.cc/virtual/2026/poster/63477">[paper]</a>
+
+#### Layer 2: spatiotemporal, physical, and behavioral cues
+- [04/2026] Moiré Video Authentication: A Physical Signature Against AI Video Generation. <a href="https://arxiv.org/abs/2604.01654">[paper]</a>
+- [07/2026] Detecting AI-Generated Videos via Global Semantic Awareness and Inter-Frame Semantic Consistency. <a href="https://doi.org/10.1016/j.neucom.2026.133530">[paper]</a>
+- [07/2026 online] Detecting the Imperceptible: A High-Low Frequency Decoupling Network for Partial Video Inpainting Forgery Detection. <a href="https://doi.org/10.1016/j.eswa.2026.133490">[paper]</a>
+- [06/2026] Robust AI-Generated Video Detection via Color-Agnostic Contrastive Curriculum Learning with Color-Aware Feature Modulation. <a href="https://doi.org/10.1109/TCSVT.2026.3701354">[paper]</a>
+- [06/2026] TRIMOE: Three-Domain Mixture-of-Experts Framework for Deepfake Identification. <a href="https://openaccess.thecvf.com/content/CVPR2026W/PPMisDet/html/Dutta_TRIMOE_Three-Domain_Mixture-of-Experts_Framework_for_Deepfake_Identification_CVPRW_2026_paper.html">[paper]</a>
+- [05/2026] Kol-3-Freq: Frequency-Aware Video Deepfake Detection Using Kolmogorov-Arnold Networks. <a href="https://doi.org/10.1109/TBIOM.2026.3694120">[paper]</a>
+- [03/2026] A Multi-Grained Parallel Spatio-Temporal Learning Architecture for Deepfake Video Detection. <a href="https://doi.org/10.1145/3789507">[paper]</a>
+- [03/2026] Detecting Deepfake Talking Heads from Facial Biometric Anomalies. <a href="https://openaccess.thecvf.com/content/WACV2026W/SAFE-2026/html/Norman_Detecting_Deepfake_Talking_Heads_from_Facial_Biometric_Anomalies_WACVW_2026_paper.html">[paper]</a>
+- [02/2026 online] 3D Differential Decomposition for Video Deepfake Detection with Identity Suppression. <a href="https://doi.org/10.1016/j.image.2026.117525">[paper]</a>
+- [01/2026] MPF-Net: Exposing High-Fidelity AI-Generated Video Forgeries via Hierarchical Manifold Deviation and Micro-Temporal Fluctuations. <a href="https://arxiv.org/abs/2601.21408">[paper]</a>
+- [03/2026] Training-Free Detection of Generated Videos via Spatial-Temporal Likelihoods. <a href="https://arxiv.org/abs/2603.15026">[paper]</a>
+- [04/2026] Aletheia: Physics-Conditioned Localized Artifact Attention (PhyLAA-X) for End-to-End Generalizable and Robust Deepfake Video Detection. <a href="https://arxiv.org/abs/2604.16486">[paper]</a>
+- [07/2026] SPLIT: Training-Free AI-Generated and Partially Edited Video Detection via Spatial Patch-Level Incoherence and Temporal Roughness. <a href="https://arxiv.org/abs/2607.02886">[paper]</a>
+- [01/2026] DDNet: A Dual-Stream Graph Learning and Disentanglement Framework for Temporal Forgery Localization. <a href="https://arxiv.org/abs/2601.01784">[paper]</a>
+- [01/2026] ExposeAnyone: Personalized Audio-to-Expression Diffusion Models Are Robust Zero-Shot Face Forgery Detectors. <a href="https://arxiv.org/abs/2601.02359">[paper]</a>
+- [01/2026] Mining Forgery Traces from Reconstruction Error: A Weakly Supervised Framework for Multimodal Deepfake Temporal Localization. <a href="https://arxiv.org/abs/2601.21458">[paper]</a>
+- [02/2026] EA-Swin: An Embedding-Agnostic Swin Transformer for AI-Generated Video Detection. <a href="https://arxiv.org/abs/2602.17260">[paper]</a>
+- [03/2026] SVD-Det: A Lightweight Framework for Video Forgery Detection Using Semantic and Visual Defect Cues. <a href="https://openaccess.thecvf.com/content/WACV2026/html/Yang_SVD-Det_A_Lightweight_Framework_for_Video_Forgery_Detection_Using_Semantic_WACV_2026_paper.html">[paper]</a>
+- [03/2026] Training-Free Detection of Text-to-Video Generations via Over-Coherence. <a href="https://openaccess.thecvf.com/content/WACV2026/html/Brokman_Training-free_Detection_of_Text-to-video_Generations_via_Over-coherence_WACV_2026_paper.html">[paper]</a>
+- [04/2026] Preserving Forgery Artifacts: AI-Generated Video Detection at Native Scale. <a href="https://openreview.net/forum?id=XD43lfRCg6">[paper]</a>
+- [04/2026] BioLip: Language-Generalizable Lip-Sync Deepfake Detection via Biomechanical Constraint Violation Modeling. <a href="https://arxiv.org/abs/2604.16808">[paper]</a>
+- [04/2026] Interpretable Facial Dynamics as Behavioral and Perceptual Traces of Deepfakes. <a href="https://arxiv.org/abs/2604.21760">[paper]</a>
+- [04/2026] DYMAPIA: A Multi-Domain Framework for Detecting AI-Based Video Manipulation. <a href="https://arxiv.org/abs/2604.24426">[paper]</a>
+- [05/2026] Detecting AI-Generated Videos with Spiking Neural Networks. <a href="https://arxiv.org/abs/2605.05895">[paper]</a>
+- [05/2026] Exposing and Mitigating Temporal Attack in Deepfake Video Detection. <a href="https://arxiv.org/abs/2605.07398">[paper]</a>
+- [05/2026] CAM-VFD: Cross-Attention Multimodal Video Forgery Detection. <a href="https://arxiv.org/abs/2605.17133">[paper]</a>
+- [05/2026] SpecSem-Net: Integrating Spectral and Semantic Features for Robust AI-Generated Video Detection. <a href="https://arxiv.org/abs/2605.17311">[paper]</a>
+- [05/2026] Deepfake Detection in Social Media: A Temporal Artifact Analysis Using 3D Convolutional Neural Networks. <a href="https://arxiv.org/abs/2605.17573">[paper]</a>
+- [05/2026] Scalable, Energy-Efficient Optical-Neural Architecture for Multiplexed Deepfake Video Detection. <a href="https://arxiv.org/abs/2605.19360">[paper]</a>
+- [06/2026] ReConFuse: Reconstruction-Error Guided Semantic Fusion for AI-Generated Video Detection. <a href="https://arxiv.org/abs/2606.04706">[paper]</a>
+- [06/2026] Revealing Artifacts via Noise Amplification: A Novel Perspective for AI-Generated Video Detection. <a href="https://arxiv.org/abs/2606.16742">[paper]</a>
+- [06/2026] CUPID: Reconstructing UV Texture Maps for Interpretable Person-of-Interest Deepfake Detection. <a href="https://arxiv.org/abs/2606.20302">[paper]</a>
+- [06/2026] LoCC: Detection and Localization of Lip-Syncing Deepfakes via Counterfactual Frame Consistency. <a href="https://arxiv.org/abs/2606.22772">[paper]</a>
+- [07/2026] Beyond Pixels: Mining Compressed Domain Artifacts for Efficient AI-Generated Video Detection. <a href="https://icml.cc/virtual/2026/poster/62999">[paper]</a>
+- [07/2026] Rethinking the Readout: Unlocking Video Backbones for AI-Generated Video Detection. <a href="https://arxiv.org/abs/2607.15321">[paper]</a>
+
+#### Layer 3: audio-visual and text-video consistency
+- [07/2026] Emotion-Aware Multimodal Deepfake Detection. <a href="https://doi.org/10.1016/j.neunet.2026.108675">[paper]</a>
+- [06/2026] Structural-Semantic Perception for Diffusion-Guided Temporal Forgery Localization. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Cao_Structural-Semantic_Perception_for_Diffusion-Guided_Temporal_Forgery_Localization_CVPR_2026_paper.html">[paper]</a>
+- [05/2026] AVSCNet: A Dual-Branch Network for Synchronization Detection and Content Consistency Learning in Audio-Video Forgery Detection. <a href="https://doi.org/10.1016/j.neucom.2026.133067">[paper]</a>
+- [11/2025; WACV 2026] AuViRe: Audio-Visual Speech Representation Reconstruction for Deepfake Temporal Localization. <a href="https://openaccess.thecvf.com/content/WACV2026/html/Koutlis_AuViRe_Audio-visual_Speech_Representation_Reconstruction_for_Deepfake_Temporal_Localization_WACV_2026_paper.html">[paper]</a>
+- [01/2026] Divide and Conquer: Multimodal Video Deepfake Detection via Cross-Modal Fusion and Localization. <a href="https://arxiv.org/abs/2602.00209">[paper]</a>
+- [03/2026] DeformTrace: A Deformable State Space Model with Relay Tokens for Temporal Forgery Localization. <a href="https://arxiv.org/abs/2603.04882">[paper]</a>
+- [03/2026] GEM-TFL: Bridging Weak and Full Supervision for Forgery Localization through EM-Guided Decomposition and Temporal Refinement. <a href="https://arxiv.org/abs/2603.05095">[paper]</a>
+- [03/2026] Word-Anchored Temporal Forgery Localization. <a href="https://arxiv.org/abs/2603.06220">[paper]</a>
+- [04/2026] ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity. <a href="https://arxiv.org/abs/2604.04029">[paper]</a>
+- [05/2026] EMO-BOOST: Emotion-Augmented Audio-Visual Features for Improved Generalization in Deepfake Detection. <a href="https://arxiv.org/abs/2605.19630">[paper]</a>
+- [07/2026] MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization. <a href="https://arxiv.org/abs/2607.00902">[paper]</a>
+- [07/2026] EVAS: Efficient Multimodal Temporal Forgery Localization via Audio-Visual Synergy and Steered Boundary Calibration. <a href="https://arxiv.org/abs/2607.04472">[paper]</a>
+- [07/2026] UniSkip-Mamba: A Frequency-Aware State Space Model for Audio-Visual Temporal Forgery Localization. <a href="https://arxiv.org/abs/2607.04498">[paper]</a>
+- [02/2026] Leveraging Large Multimodal Models for Audio-Video Deepfake Detection: A Pilot Study. <a href="https://arxiv.org/abs/2602.23393">[paper]</a>
+- [03/2026] SAVe: Self-Supervised Audio-Visual Deepfake Detection Exploiting Visual Artifacts and Audio-Visual Misalignment. <a href="https://arxiv.org/abs/2603.25140">[paper]</a>
+- [03/2026] Leave No Stone Unturned: Uncovering Holistic Audio-Visual Intrinsic Coherence for Deepfake Detection. <a href="https://openaccess.thecvf.com/content/CVPR2026F/html/Peng_Leave_No_Stone_Unturned_Uncovering_Holistic_Audio-Visual_Intrinsic_Coherence_for_CVPRF_2026_paper.html">[paper]</a>
+- [03/2026] A-V Representation Learning via Audio Shift Prediction for Multimodal Deepfake Detection and Temporal Localization. <a href="https://openaccess.thecvf.com/content/WACV2026/html/Anshul_A-V_Representation_Learning_via_Audio_Shift_Prediction_for_Multimodal_Deepfake_WACV_2026_paper.html">[paper]</a>
+- [04/2026] MSCT: Differential Cross-Modal Attention for Deepfake Detection. <a href="https://arxiv.org/abs/2604.07741">[paper]</a>
+- [04/2026] Generalizing Video DeepFake Detection by Self-Generated Audio-Visual Pseudo-Fakes. <a href="https://arxiv.org/abs/2604.09110">[paper]</a>
+- [04/2026] Listening Deepfake Detection: A New Perspective Beyond Speaking-Centric Forgery Analysis. <a href="https://arxiv.org/abs/2604.12650">[paper]</a>
+- [04/2026] Attribution-Guided Multimodal Deepfake Detection via Cross-Modal Forensic Fingerprints. <a href="https://arxiv.org/abs/2604.26453">[paper]</a>
+- [04/2026] Are DeepFakes Realistic Enough? Exploring Semantic Mismatch as a Novel Challenge. <a href="https://arxiv.org/abs/2604.28022">[paper]</a>
+- [05/2026] CMTA: Leveraging Cross-Modal Temporal Artifacts for Generalizable AI-Generated Video Detection. <a href="https://arxiv.org/abs/2605.00630">[paper]</a>
+- [05/2026] Towards Multi-Modal Forgery Representation Learning for AI-Generated Video Detection and Localization. <a href="https://arxiv.org/abs/2605.07232">[paper]</a>
+- [05/2026] From Talking to Singing: A New Challenge for Audio-Visual Deepfake Detection. <a href="https://icml.cc/virtual/2026/poster/62663">[paper]</a>
+- [06/2026] Inconsistency-Aware Multimodal Schrodinger Bridge for Deepfake Localization. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xiong_Inconsistency-aware_Multimodal_Schrodinger_Bridge_for_Deepfake_Localization_CVPR_2026_paper.html">[paper]</a>
+- [06/2026] Investigating Self-Supervised Representations for Audio-Visual Deepfake Detection. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Boldisor_Investigating_Self-Supervised_Representations_for_Audio-Visual_Deepfake_Detection_CVPR_2026_paper.html">[paper]</a>
+- [06/2026] ExpSpeech-Net: Multimodal Fusion of Expression and Speech for Deepfake Detection. <a href="https://arxiv.org/abs/2606.05760">[paper]</a>
+- [06/2026] Teacher-Student Structure for Domain Adaptation in Ensemble Audio-Visual Video Deepfake Detection. <a href="https://arxiv.org/abs/2606.15117">[paper]</a>
+- [07/2026] Ensemble Deep Learning Approaches for AI-Altered Video Detection. <a href="https://arxiv.org/abs/2607.06872">[paper]</a>
+
+#### Layer 4: language-guided and evidence-driven reasoning
+- [04/2026] DVAR: Adversarial Multi-Agent Debate for Video Authenticity Detection. <a href="https://arxiv.org/abs/2604.16987">[paper]</a>
+- [05/2026] Artifact-Bench: Evaluating MLLMs on Detecting and Assessing the Artifacts of AI-Generated Videos. <a href="https://arxiv.org/abs/2605.18984">[paper]</a>
+- [03/2026] ForensicZip: More Tokens are Better but Not Necessary in Forensic Vision-Language Models. <a href="https://arxiv.org/abs/2603.12208">[paper]</a>
+- [03/2026] GenVideoLens: Where LVLMs Fall Short in AI-Generated Video Detection? <a href="https://arxiv.org/abs/2603.18625">[paper]</a>
+- [03/2026] Unleashing Vision-Language Semantics for Deepfake Video Detection. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Unleashing_Vision-Language_Semantics_for_Deepfake_Video_Detection_CVPR_2026_paper.html">[paper]</a>
+- [05/2026] CoCoVideo: The High-Quality Commercial-Model-Based Contrastive Benchmark for AI-Generated Video Detection. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Feng_CoCoVideo_The_High-Quality_Commercial-Model-Based_Contrastive_Benchmark_for_AI-Generated_Video_Detection_CVPR_2026_paper.html">[paper]</a>
+- [06/2026] Explainable Forensics of Manipulated Segments in Untrimmed Long Videos. <a href="https://arxiv.org/abs/2606.02402">[paper]</a>
+- [06/2026] VMD-FACT: A New Video Dataset and MLLM-Based Method for Detecting Realistic AI-Generated Video Misinformation. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_VMD-FACT_A_New_Video_Dataset_and_MLLM-based_method_for_Detecting_CVPR_2026_paper.html">[paper]</a>
+- [06/2026] From Detector Evidence to Language: Explainable Deepfake Video Detection. <a href="https://openaccess.thecvf.com/content/CVPR2026W/FoundGen-Bio/html/Panahi_From_Detector_Evidence_to_Language_Explainable_Deepfake_Video_Detection_CVPRW_2026_paper.html">[paper]</a>
+- [07/2026] SafeGuard: A Multi-Agent Perception-Reasoning Framework for Social-Risk AI-Generated Video Detection. <a href="https://arxiv.org/abs/2607.03069">[paper]</a>
+- [07/2026] Hermes: An Evidence-Driven Agentic Framework for Trustworthy and Explainable AI-Generated Video Detection. <a href="https://icml.cc/virtual/2026/poster/61817">[paper]</a>
+
+#### Video-first benchmarks, audits, and dynamic evaluation
+- [05/2025; WACV 2026] TalkingHeadBench: A Multi-Modal Benchmark &amp; Analysis of Talking-Head DeepFake Detection. <a href="https://openaccess.thecvf.com/content/WACV2026/html/Xiong_TalkingHeadBench_A_Multi-Modal_Benchmark__Analysis_of_Talking-Head_DeepFake_Detection_WACV_2026_paper.html">[paper]</a>
+- [03/2026] Human-AI Ensembles Improve Deepfake Detection in Low-to-Medium Quality Videos. <a href="https://arxiv.org/abs/2603.14658">[paper]</a>
+- [05/2026] Advancing Reliable Synthetic Video Detection: Insights from the SAFE Challenge. <a href="https://arxiv.org/abs/2605.06912">[paper]</a>
+- [04/2026] ActivityForensics: A Comprehensive Benchmark for Localizing Manipulated Activity in Videos. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Bao_ActivityForensics_A_Comprehensive_Benchmark_for_Localizing_Manipulated_Activity_in_Videos_CVPR_2026_paper.html">[paper]</a>
+- [06/2026] Detecting Temporally Localized Manipulations in Authentic Video Streams. <a href="https://arxiv.org/abs/2606.07090">[paper]</a>
+- [06/2026] FVBench: Benchmarking Deepfake Video Detection Capability of Large Multimodal Models. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_FVBench_Benchmarking_Deepfake_Video_Detection_Capability_of_Large_Multimodal_Models_CVPR_2026_paper.html">[paper]</a>
+- [06/2026] AVFakeBench: A Comprehensive Audio-Video Forgery Detection Benchmark for AV-LMMs. <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xia_AVFakeBench_A_Comprehensive_Audio-Video_Forgery_Detection_Benchmark_for_AV-LMMs_CVPR_2026_paper.html">[paper]</a>
+- [06/2026] Auditing Generalization in AI-Generated Video Detection: A Six-Control Protocol and the VidAudit Toolkit. <a href="https://arxiv.org/abs/2606.31004">[paper]</a>
+- [07/2026] Dataset Biases and Shortcut Learning in Motion-Based AI-Generated Video Detection. <a href="https://arxiv.org/abs/2607.00948">[paper]</a>
+- [07/2026] HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales. <a href="https://arxiv.org/abs/2607.08705">[paper]</a>
+- [07/2026] Continuously Evolving Deepfake Detection: An Architecture and Public-Benchmark Evaluation of a Dynamic Detection System. <a href="https://arxiv.org/abs/2607.13234">[paper]</a>
+
 ### [Paradigms](paradigms/README.md)
 
 #### [Local Manipulation](paradigms/README.md#local-manipulation)
@@ -339,7 +451,7 @@ A flat, paper-first index in the same style as the reference list. Detailed note
 - [04/2025] Consistency-aware Fake Videos Detection on Short Video Platforms. <a href="https://arxiv.org/abs/2504.21495">[paper]</a>
 
 #### [C. Robust learning and temporal localization](methods/layer-3-cross-modal.md#c-robust-learning-and-temporal-localization)
-- [02/2026] Divide and Conquer: Multimodal Video Deepfake Detection via Cross-Modal Fusion and Localization. <a href="https://doi.org/10.48550/ARXIV.2602.00209">[paper]</a>
+- [01/2026] Divide and Conquer: Multimodal Video Deepfake Detection via Cross-Modal Fusion and Localization. <a href="https://doi.org/10.48550/ARXIV.2602.00209">[paper]</a>
 - [01/2026] A-V Representation Learning via Audio Shift Prediction for Multimodal Deepfake Detection and Temporal Localization. <a href="https://wacv.thecvf.com/Conferences/2026/AcceptedPapers">[paper]</a>
 - [10/2025] HOLA: Enhancing Audio-visual Deepfake Detection via Hierarchical Contextual Aggregations and Efficient Pre-training. <a href="https://arxiv.org/abs/2507.22781">[paper]</a>
 - [10/2025] A Multimodal Deviation Perceiving Framework for Weakly-Supervised Temporal Forgery Localization. <a href="http://dx.doi.org/10.1145/3746027.3755534">[paper]</a>
@@ -471,28 +583,13 @@ A flat, paper-first index in the same style as the reference list. Detailed note
 If you find this repository helpful, a citation to our paper would be greatly appreciated:
 
 ```bibtex
-@inproceedings{hou-etal-2026-detecting,
-    title = "Detecting {AI}-Generated Video: A Vision{--}Language Dual-View Survey",
-    author = "Hou, Dylan Xinming  and
-      Zhang, Juntian  and
-      Gu, Xu  and
-      Wu, Yichen  and
-      Lukas, Nils  and
-      Xia, Gus  and
-      Chen, Xiuying  and
-      Liu, Yuhan",
-    editor = "Liakata, Maria  and
-      Moreira, Viviane P.  and
-      Zhang, Jiajun  and
-      Jurgens, David",
-    booktitle = "Findings of the {A}ssociation for {C}omputational {L}inguistics: {ACL} 2026",
-    month = jul,
-    year = "2026",
-    address = "San Diego, California, United States",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2026.findings-acl.1613/",
-    pages = "32221--32255",
-    ISBN = "979-8-89176-395-1",
-    abstract = "The evolving realism of AI-generated Videos (AIGC-V) is rapidly rendering traditional artifact-centric detection insufficient, necessitating a paradigm shift from low-level inspection to high-level semantic verification. This paper presents a comprehensive survey of AIGC-V detection, reframing the task as Factual Fidelity Verification, which asks whether the events, entities, and physical processes depicted in a video are consistent with real-world facts. To systematize this rapidly evolving field, we propose a Vision{--}Language Dual-View taxonomy that organizes existing methods into a hierarchical, four-layer landscape, spanning intrinsic cue analysis, spatiotemporal consistency modeling, cross-modal consistency reasoning, and language-guided world-level reasoning. This dual-view framing highlights a fundamental transition from artifact matching to evidence-based semantic verification enabled by vision{--}language models and agentic reasoning pipelines. Based on a systematic review of 195 papers, we synthesize AIGC-V generation paradigms, survey the landscape of detection methods, and review evaluation metrics and benchmarks in line with proposed views. Finally, we discuss current challenges and identify promising directions toward robust, explainable, and trustworthy detection."
-}
+@inproceedings{Hou_2026,
+   title={Detecting AI-Generated Video: A Vision–Language Dual-View Survey},
+   url={http://dx.doi.org/10.18653/v1/2026.findings-acl.1613},
+   DOI={10.18653/v1/2026.findings-acl.1613},
+   booktitle={Findings of the Association for Computational Linguistics: ACL 2026},
+   publisher={Association for Computational Linguistics},
+   author={Hou, Dylan Xinming and Zhang, Juntian and Gu, Xu and Wu, Yichen and Lukas, Nils and Xia, Gus and Chen, Xiuying and Liu, Yuhan},
+   year={2026},
+   pages={32221–32255} }
 ```

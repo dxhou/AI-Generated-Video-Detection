@@ -10,13 +10,50 @@ Within-video multimodal verification. The detector asks whether audio, speech, t
 - **B. Text-video semantic consistency reasoning**: Caption, transcript, or prompt semantics checked against visual evidence.
 - **C. Robust learning and temporal localization**: Localization-oriented multimodal learning under sparse inconsistency.
 
+## July 2026 refresh
+
+Layer 3 is reserved for detectors whose decision depends on observed audio, text, captions, or cross-modal alignment. In particular, CMTA belongs here because it compares generated captions with visual embeddings over time.
+
+| Date | Method | Paper | Decisive cue / mechanism | Output | Venue |
+| --- | --- | --- | --- | --- | --- |
+| 07/2026 | Emotion-Aware Detection | [Emotion-Aware Multimodal Deepfake Detection](https://doi.org/10.1016/j.neunet.2026.108675)<br>Zhang et al. | Visual, acoustic, affective, and transcript-semantic fusion | Score | Neural Networks |
+| 06/2026 | Structural--Semantic TFL | [Structural-Semantic Perception for Diffusion-Guided Temporal Forgery Localization](https://openaccess.thecvf.com/content/CVPR2026/html/Cao_Structural-Semantic_Perception_for_Diffusion-Guided_Temporal_Forgery_Localization_CVPR_2026_paper.html)<br>Cao et al. | Multi-scale proposals, intra-modal semantics, and diffusion refinement | Score+loc. | CVPR |
+| 05/2026 | AVSCNet | [AVSCNet: A Dual-Branch Network for Synchronization Detection and Content Consistency Learning in Audio-Video Forgery Detection](https://doi.org/10.1016/j.neucom.2026.133067)<br>Zhu et al. | Synchronization and content-consistency branches | Score | Neurocomputing |
+| 11/2025 | AuViRe | [AuViRe: Audio-Visual Speech Representation Reconstruction for Deepfake Temporal Localization](https://openaccess.thecvf.com/content/WACV2026/html/Koutlis_AuViRe_Audio-visual_Speech_Representation_Reconstruction_for_Deepfake_Temporal_Localization_WACV_2026_paper.html)<br>Koutlis and Papadopoulos | Cross-modal speech-representation reconstruction | Score+loc. | WACV 2026 |
+| 07/2026 | UniSkip-Mamba | [UniSkip-Mamba: A Frequency-Aware State Space Model for Audio-Visual Temporal Forgery Localization](https://arxiv.org/abs/2607.04498)<br>Qiu et al. | AV phase-preserving fusion with low/mid-frequency skip scanning | Score+loc. | arXiv |
+| 07/2026 | EVAS | [EVAS: Efficient Multimodal Temporal Forgery Localization via Audio-Visual Synergy and Steered Boundary Calibration](https://arxiv.org/abs/2607.04472)<br>Shen et al. | Progressive AV synergy and boundary calibration | Score+loc. | arXiv |
+| 07/2026 | MG-RWKV | [MG-RWKV: Multi-Grained Context-Aware RWKV for Temporal Forgery Localization](https://arxiv.org/abs/2607.00902)<br>Ni et al. | Fused audio/visual features with linear-time multi-granularity context | Score+loc. | arXiv |
+| 05/2026 | EMO-BOOST | [EMO-BOOST: Emotion-Augmented Audio-Visual Features for Improved Generalization in Deepfake Detection](https://arxiv.org/abs/2605.19630)<br>Marik et al. | Intra/inter-modal temporal emotion consistency | Score | CVPRW |
+| 04/2026 | ATSS | [ATSS: Detecting AI-Generated Videos via Anomalous Temporal Self-Similarity](https://arxiv.org/abs/2604.04029)<br>Wang et al. | Visual, textual, and cross-modal temporal self-similarity | Score | arXiv |
+| 03/2026 | WAFL | [Word-Anchored Temporal Forgery Localization](https://arxiv.org/abs/2603.06220)<br>Wang et al. | Word-aligned audio/visual segments and fusion-head decisions | Score+loc. | arXiv |
+| 03/2026 | GEM-TFL | [GEM-TFL: Bridging Weak and Full Supervision for Forgery Localization through EM-Guided Decomposition and Temporal Refinement](https://arxiv.org/abs/2603.05095)<br>Zhu et al. | Cross-attended AV features with EM and graph refinement | Score+loc. | CVPR |
+| 03/2026 | DeformTrace | [DeformTrace: A Deformable State Space Model with Relay Tokens for Temporal Forgery Localization](https://arxiv.org/abs/2603.04882)<br>Zhu et al. | Multiscale AV features with deformable state spaces | Score+loc. | AAAI |
+| 01/2026 | Divide and Conquer | [Divide and Conquer: Multimodal Video Deepfake Detection via Cross-Modal Fusion and Localization](https://arxiv.org/abs/2602.00209)<br>Li et al. | Unimodal localization followed by cross-modal score fusion | Score+loc. | arXiv |
+| 07/2026 | AV Ensemble | [Ensemble Deep Learning Approaches for AI-Altered Video Detection](https://arxiv.org/abs/2607.06872)<br>Khan et al. | Audio score fused with frame-visual detectors | Score | arXiv |
+| 06/2026 | EAV-DFD | [Teacher-Student Structure for Domain Adaptation in Ensemble Audio-Visual Video Deepfake Detection](https://arxiv.org/abs/2606.15117)<br>Abolhasani et al. | Audio-visual teacher-student adaptation | Score | arXiv |
+| 06/2026 | ExpSpeech-Net | [ExpSpeech-Net: Multimodal Fusion of Expression and Speech for Deepfake Detection](https://arxiv.org/abs/2606.05760)<br>Sharma and Dwivedi | Expression-speech fusion | Score | arXiv |
+| 06/2026 | Self-Supervised AV Study | [Investigating Self-Supervised Representations for Audio-Visual Deepfake Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Boldisor_Investigating_Self-Supervised_Representations_for_Audio-Visual_Deepfake_Detection_CVPR_2026_paper.html)<br>Boldisor et al. | Comparative audio, visual, and AV representations | Score+analysis | CVPR |
+| 06/2026 | IaMSB | [Inconsistency-Aware Multimodal Schrodinger Bridge for Deepfake Localization](https://openaccess.thecvf.com/content/CVPR2026/html/Xiong_Inconsistency-aware_Multimodal_Schrodinger_Bridge_for_Deepfake_Localization_CVPR_2026_paper.html)<br>Xiong et al. | Cross-modal witnesses and interval refinement | Score+loc. | CVPR |
+| 05/2026 | Multimodal Forgery Representation | [Towards Multi-Modal Forgery Representation Learning for AI-Generated Video Detection and Localization](https://arxiv.org/abs/2605.07232)<br>Le et al. | Semantic, spatiotemporal, and partial-spoof branches | Score+loc. | arXiv |
+| 05/2026 | T-AVFD | [From Talking to Singing: A New Challenge for Audio-Visual Deepfake Detection](https://icml.cc/virtual/2026/poster/62663)<br>Liu et al. | Text-guided facial patterns plus AV coherence | Score | ICML |
+| 05/2026 | CMTA | [CMTA: Leveraging Cross-Modal Temporal Artifacts for Generalizable AI-Generated Video Detection](https://arxiv.org/abs/2605.00630)<br>Wang et al. | Caption-video temporal alignment | Score | arXiv |
+| 04/2026 | Semantic Mismatch | [Are DeepFakes Realistic Enough? Exploring Semantic Mismatch as a Novel Challenge](https://arxiv.org/abs/2604.28022)<br>Deshmukh et al. | Real-audio/real-video semantic mismatch stress test | Evaluation | arXiv |
+| 04/2026 | AMDD | [Attribution-Guided Multimodal Deepfake Detection via Cross-Modal Forensic Fingerprints](https://arxiv.org/abs/2604.26453)<br>Ahmad et al. | Audio-visual generator fingerprint consistency | Score+attr. | arXiv |
+| 04/2026 | ListenForge / MANet | [Listening Deepfake Detection: A New Perspective Beyond Speaking-Centric Forgery Analysis](https://arxiv.org/abs/2604.12650)<br>Liu et al. | Listener motion guided by speaker audio | Score | arXiv |
+| 04/2026 | AVPF | [Generalizing Video DeepFake Detection by Self-Generated Audio-Visual Pseudo-Fakes](https://arxiv.org/abs/2604.09110)<br>Wei et al. | Authentic-only audio-visual pseudo-fakes | Score | arXiv |
+| 04/2026 | MSCT | [MSCT: Differential Cross-Modal Attention for Deepfake Detection](https://arxiv.org/abs/2604.07741)<br>Wei et al. | Differential cross-modal attention | Score | ICASSP |
+| 03/2026 | A-V Shift Prediction | [A-V Representation Learning via Audio Shift Prediction for Multimodal Deepfake Detection and Temporal Localization](https://openaccess.thecvf.com/content/WACV2026/html/Anshul_A-V_Representation_Learning_via_Audio_Shift_Prediction_for_Multimodal_Deepfake_WACV_2026_paper.html)<br>Anshul et al. | Audio-shift pretext learning | Score+loc. | WACV |
+| 03/2026 | SAVe | [SAVe: Self-Supervised Audio-Visual Deepfake Detection Exploiting Visual Artifacts and Audio-Visual Misalignment](https://arxiv.org/abs/2603.25140)<br>Shahzad et al. | Authentic-only visual artifacts and AV misalignment | Score | arXiv |
+| 03/2026 | HAVIC | [Leave No Stone Unturned: Uncovering Holistic Audio-Visual Intrinsic Coherence for Deepfake Detection](https://openaccess.thecvf.com/content/CVPR2026F/html/Peng_Leave_No_Stone_Unturned_Uncovering_Holistic_Audio-Visual_Intrinsic_Coherence_for_CVPRF_2026_paper.html)<br>Peng et al. | Intra- and cross-modal coherence | Score | CVPR Findings |
+| 02/2026 | AV-LMMDetect | [Leveraging Large Multimodal Models for Audio-Video Deepfake Detection: A Pilot Study](https://arxiv.org/abs/2602.23393)<br>Cao et al. | Joint audio-video LMM prompting | Score | ICASSP |
+
 ## A. Audio-visual consistency detection
 
 Synchrony, symbolic lip-sync, and voice-face identity coherence.
 
 | Date | Method | Paper | Cue | Input | Mechanism | Output | Venue |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 03/2026 | X-AVDT | [X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection](https://doi.org/10.48550/ARXIV.2603.08483)<br>Kim et al. | Generator-internal audio-visual correspondence | Speech+Face | DDIM inversion + cross-attention probing | Score | CVPR |
+| 03/2026 | X-AVDT | [X-AVDT: Audio-Visual Cross-Attention for Robust Deepfake Detection](https://openaccess.thecvf.com/content/CVPR2026/html/Kim_X-AVDT_Audio-Visual_Cross-Attention_for_Robust_Deepfake_Detection_CVPR_2026_paper.html)<br>Kim et al. | Generator-internal audio-visual correspondence | Speech+Face | DDIM inversion + cross-attention probing | Score | CVPR |
 | 01/2026 | ConLLM | [Revealing the Truth with ConLLM for Detecting Multi-Modal Deepfakes](https://doi.org/10.48550/ARXIV.2601.17530)<br>Kashyap et al. | Multimodal semantic inconsistency | Speech+Face | Contrastive alignment + LLM reasoning | Score | arXiv |
 | 10/2025 | PIA | [PIA: Deepfake Detection Using Phoneme-Temporal and Identity-Dynamic Analysis](https://arxiv.org/abs/2510.14241)<br>Datta et al. | Phoneme-timing mismatch + ID dynamics | Speech+Lip | Phoneme timing + ID dynamics | Score | arXiv |
 | 10/2025 | KLASSify to Verify | [KLASSify to Verify: Audio-Visual Deepfake Detection Using SSL-based Audio and Handcrafted Visual Features](https://arxiv.org/abs/2508.07337)<br>Kukanov et al. | Robust audio-visual cues (unseen attacks) | Speech+Face | Audio SSL + graph attn + handcrafted | Score+loc. | arXiv |
@@ -52,7 +89,7 @@ Localization-oriented multimodal learning under sparse inconsistency.
 
 | Date | Method | Paper | Cue | Input | Mechanism | Output | Venue |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 02/2026 | Divide and Conquer | [Divide and Conquer: Multimodal Video Deepfake Detection via Cross-Modal Fusion and Localization](https://doi.org/10.48550/ARXIV.2602.00209)<br>Li et al. | Cross-modal fusion + temporal localization | Speech+Face | Unimodal detectors + score fusion | Score+loc. | arXiv |
+| 01/2026 | Divide and Conquer | [Divide and Conquer: Multimodal Video Deepfake Detection via Cross-Modal Fusion and Localization](https://doi.org/10.48550/ARXIV.2602.00209)<br>Li et al. | Cross-modal fusion + temporal localization | Speech+Face | Unimodal detectors + score fusion | Score+loc. | arXiv |
 | 01/2026 | A-V Shift Prediction | [A-V Representation Learning via Audio Shift Prediction for Multimodal Deepfake Detection and Temporal Localization](https://wacv.thecvf.com/Conferences/2026/AcceptedPapers)<br>Anshul et al. | Temporal audio-visual perturbation cues | Speech+Face | Audio shift prediction + localization | Score+loc. | WACV |
 | 10/2025 | HOLA | [HOLA: Enhancing Audio-visual Deepfake Detection via Hierarchical Contextual Aggregations and Efficient Pre-training](https://arxiv.org/abs/2507.22781)<br>Wu et al. | Hierarchical audio-visual aggregation | Speech+Face | SSL pretrain + gated aggregation | Score | arXiv |
 | 10/2025 | Weakly-Supervised Temporal Localization | [A Multimodal Deviation Perceiving Framework for Weakly-Supervised Temporal Forgery Localization](http://dx.doi.org/10.1145/3746027.3755534)<br>Xu et al. | Sparse multimodal deviations | Speech+Face | Weak supervision + deviation modeling | Score+loc. | ACM MM |
