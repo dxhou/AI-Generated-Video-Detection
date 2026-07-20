@@ -8,10 +8,10 @@ Benchmarks in the survey follow three main families: **Local Manipulation Video 
 
 | Family | Resources | Main question | Page |
 | --- | --- | --- | --- |
-| Local Manipulation Video (LMV) | 19 | Localized forensic residue, compression robustness, cross-dataset transfer. | [Open](local-manipulation-video.md) |
-| Audio-Visual Editing (AVE) | 18 | Lip-audio alignment, speaker-content consistency, localization. | [Open](audio-visual-editing.md) |
-| Generative Video Synthesis (GVS) | 32 | Cross-generator transfer, plausibility, semantically fabricated scenarios. | [Open](generative-video-synthesis.md) |
-| Diagnostics and audits | 23 | Physics, world dynamics, explanations, and detector robustness controls. | [Open](adjacent-diagnostics.md) |
+| Local Manipulation Video (LMV) | 21 | Localized forensic residue, compression robustness, cross-dataset transfer. | [Open](local-manipulation-video.md) |
+| Audio-Visual Editing (AVE) | 17 | Lip-audio alignment, speaker-content consistency, localization. | [Open](audio-visual-editing.md) |
+| Generative Video Synthesis (GVS) | 30 | Cross-generator transfer, plausibility, semantically fabricated scenarios. | [Open](generative-video-synthesis.md) |
+| Diagnostics and audits | 25 | Physics, world dynamics, explanations, detector robustness controls, and human judgments. | [Open](adjacent-diagnostics.md) |
 
 ## Reading Note
 

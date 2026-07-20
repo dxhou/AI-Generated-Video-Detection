@@ -36,7 +36,7 @@ Methods in this paradigm use speech as an explicit control signal. Detection the
 | --- | --- | --- | --- | --- |
 | 2025 | SayAnything | [SayAnything: Audio-Driven Lip Synchronization with Conditional Video Diffusion](https://arxiv.org/abs/2502.11515)<br>Ma et al. | Diffusion-based, speech-conditioned talking-head generation. | arXiv |
 | 2025 | Actalker | [Audio-visual Controlled Video Diffusion with Masked Selective State Spaces Modeling for Natural Talking Head Generation](https://arxiv.org/abs/2504.02542)<br>Hong et al. | Unified audio-guided talking-head synthesis with expressive motion. | arXiv |
-| 2024 | Ditto | [Ditto: Motion-Space Diffusion for Controllable Realtime Talking Head Synthesis](https://arxiv.org/abs/2411.19509)<br>Li et al. | Lip-synced talking-head generation with stronger motion control. | arXiv |
+| 2024 | Ditto | [Ditto: Motion-Space Diffusion for Controllable Realtime Talking Head Synthesis](https://arxiv.org/abs/2411.19509)<br>Li et al. | Lip-synced talking-head generation with stronger motion control. | ACM MM 2025 |
 | 2023 | GeneFace | [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://arxiv.org/abs/2301.13430)<br>Ye et al. | 3D-aware audio-driven portrait animation. | arXiv |
 | 2022 | VideoReTalking | [VideoReTalking: Audio-based Lip Synchronization for Talking Head Video Editing in the Wild](https://arxiv.org/abs/2211.14758)<br>Cheng et al. | Speech-driven talking-head redubbing with identity preservation. | SIGGRAPH Asia |
 

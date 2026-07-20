@@ -51,6 +51,7 @@ Video-first audits that test whether apparent detector gains survive confound co
 | --- | --- | --- | --- | --- | --- |
 | 07/2026 | BMF Dynamic Detector | [Continuously Evolving Deepfake Detection: An Architecture and Public-Benchmark Evaluation of a Dynamic Detection System](https://arxiv.org/abs/2607.13234)<br>Miyachi et al. | System | Maintains versioned general-video and human-video checkpoints alongside a continually refreshed benchmark. | arXiv |
 | 07/2026 | Motion Shortcut Audit | [Dataset Biases and Shortcut Learning in Motion-Based AI-Generated Video Detection](https://arxiv.org/abs/2607.00948)<br>Michels et al. | Audit | Isolates preprocessing, sampling, and real/fake motion-distribution biases across four video detectors. | arXiv |
+| 06/2026 | Cross-AUC | [When AUC Misleads: Polarization-Aware Evaluation of Deepfake Detectors under Domain Shift](https://arxiv.org/abs/2606.19184)<br>Nguyen et al. | Metric | Measures both dataset-wise discrimination and cross-domain score polarization over seven video-origin deepfake benchmarks. | arXiv |
 | 06/2026 | VidAudit | [Auditing Generalization in AI-Generated Video Detection: A Six-Control Protocol and the VidAudit Toolkit](https://arxiv.org/abs/2606.31004)<br>Cakiroglu et al. | Toolkit | Provides six video-specific confound controls, low-FPR reporting, 14 detector plug-ins, and cross-dataset validation. | arXiv |
 
 ## E. Source-Side Authentication (Adjacent, Not Counted)
@@ -61,3 +62,11 @@ These video-first works are useful complementary defenses, but they require sign
 | --- | --- | --- | --- | --- | --- |
 | 04/2026 | GIFGuard | [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519)<br>Che et al. | Authentication | Embeds and recovers robust spatiotemporal watermarks in animated facial GIFs. | arXiv |
 | 04/2026 | LAVA | [LAVA: Layered Audio-Visual Anti-tampering Watermarking for Robust Deepfake Detection and Localization](https://arxiv.org/abs/2604.23957)<br>Zeng et al. | Authentication | Fuses aligned audio/visual watermarks for compression-robust tamper localization. | arXiv |
+
+## F. Human Detection Studies
+
+Human-centered evaluations reveal which authenticity and localization judgments remain reliable without an automated detector.
+
+| Date | Resource | Paper | Type | Focus | Venue |
+| --- | --- | --- | --- | --- | --- |
+| 05/2026 | Crowdsourced AV Detection | [Beyond Seeing Is Believing: On Crowdsourced Detection of Audiovisual Deepfakes](https://arxiv.org/abs/2605.04797)<br>Soprano et al. | Human study | Compares authenticity, manipulation-type, and timestamp judgments on AV-Deepfake1M and TMC videos. | ROMCIR 2026 |

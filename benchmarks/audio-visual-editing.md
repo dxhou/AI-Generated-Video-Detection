@@ -6,7 +6,6 @@ AVE benchmarks center on synchronized multimodal manipulation: lip-audio alignme
 
 | Date | Benchmark / Dataset | Paper | Focus | Venue |
 | --- | --- | --- | --- | --- |
-| 07/2026 | HumanForge | [HumanForge: A Human-Centric Deepfake Video Benchmark with Multi-Agent Forgery Rationales](https://arxiv.org/abs/2607.08705)<br>Xu et al. | Human-centric interactions, multimodal alignment, and temporal rationales. | arXiv |
 | 06/2026 | RAVM | [VMD-FACT: A New Video Dataset and MLLM-Based Method for Detecting Realistic AI-Generated Video Misinformation](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_VMD-FACT_A_New_Video_Dataset_and_MLLM-based_method_for_Detecting_CVPR_2026_paper.html)<br>Zhang et al. | Claim, video, audio, and cross-modal misinformation manipulations. | CVPR |
 | 06/2026 | AVFakeBench | [AVFakeBench: A Comprehensive Audio-Video Forgery Detection Benchmark for AV-LMMs](https://openaccess.thecvf.com/content/CVPR2026/html/Xia_AVFakeBench_A_Comprehensive_Audio-Video_Forgery_Detection_Benchmark_for_AV-LMMs_CVPR_2026_paper.html)<br>Xia et al. | 12K questions across seven forgery types and four annotation levels. | CVPR |
 | 05/2026 | SHDF | [From Talking to Singing: A New Challenge for Audio-Visual Deepfake Detection](https://icml.cc/virtual/2026/poster/62663)<br>Liu et al. | Talking and singing-head audio-visual forgeries. | ICML |
