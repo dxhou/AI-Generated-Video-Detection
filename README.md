@@ -61,12 +61,12 @@ The ACL Anthology version is available at [https://aclanthology.org/2026.finding
 
 The evolving realism of **AI-Generated Content-Videos (AIGC-V)** is rapidly rendering traditional artifact-centric detection insufficient, driving a shift from low-level inspection to high-level semantic verification. In this survey, we reframe AIGC-V detection as **factual fidelity verification**: whether the events, entities, and physical processes depicted in a video remain consistent with real-world facts.
 
-To systematize this fast-evolving area, we propose a **Vision-Language Dual-View** taxonomy that organizes methods into four layers: **(1) Intrinsic Cue Analysis**, **(2) Spatiotemporal Consistency**, **(3) Cross-Modal Consistency**, and **(4) Language-Guided World-Level Reasoning**. This framing highlights the transition from artifact matching in traditional deepfake detection to evidence-based semantic verification enabled by vision-language models and agentic reasoning pipelines. Based on a review of **more than 250 video-centered works, updated through July 2026**, we synthesize AIGC-V generation paradigms, detection methods, evaluation metrics, benchmarks, and open challenges toward robust, explainable, and trustworthy detection.
+To systematize this fast-evolving area, we propose a **Vision-Language Dual-View** taxonomy that organizes methods into four layers: **(1) Intrinsic Cue Analysis**, **(2) Spatiotemporal Consistency**, **(3) Cross-Modal Consistency**, and **(4) Language-Guided World-Level Reasoning**. This framing highlights the transition from artifact matching in traditional deepfake detection to evidence-based semantic verification enabled by vision-language models and agentic reasoning pipelines. Based on a review of **298 video-centered works, updated through July 2026**, we synthesize AIGC-V generation paradigms, detection methods, evaluation metrics, benchmarks, and open challenges toward robust, explainable, and trustworthy detection.
 
 <table>
   <tr>
     <td align="center" width="25%">
-      <strong>250+</strong><br>
+      <strong>298</strong><br>
       video-centered works
     </td>
     <td align="center" width="25%">
