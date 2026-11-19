@@ -57,7 +57,7 @@
 
 This repository reorganizes **"Detecting AI-Generated Video: A Vision-Language Dual-View Survey"** into a visual reading path, connecting the central taxonomy to the generation paradigms, detection methods, benchmarks, and paper list behind the survey.
 
-The ACL Anthology version is available at [https://aclanthology.org/2026.findings-acl.1613.pdf](https://aclanthology.org/2026.findings-acl.1613.pdf). A local copy is also available in this repository at [paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf](paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf).
+The ACL Anthology version is available at [https://aclanthology.org/2026.findings-acl.1613.pdf](https://aclanthology.org/2026.findings-acl.1613.pdf). A local copy is also available in this repository at [paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf](paper/Detecting_AI_Generated_Video_A_Vision_Language_Dual_View_Survey.pdf). The ACL 2026 poster is at [paper/ACL2026_Poster.pdf](paper/ACL2026_Poster.pdf).
 
 The evolving realism of **AI-Generated Content-Videos (AIGC-V)** is rapidly rendering traditional artifact-centric detection insufficient, driving a shift from low-level inspection to high-level semantic verification. In this survey, we reframe AIGC-V detection as **factual fidelity verification**: whether the events, entities, and physical processes depicted in a video remain consistent with real-world facts.
 
